@@ -1,0 +1,41 @@
+body {
+  background-color: #f4f6f9;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.card-stat {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  transition: transform 0.15s ease;
+}
+.card-stat:hover {
+  transform: translateY(-3px);
+}
+
+.product-card {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+/* Responsive tweaks beyond Bootstrap defaults */
+@media (max-width: 576px) {
+  .card-stat h3 {
+    font-size: 1.4rem;
+  }
+}
+
+.price-drop {
+  color: #198754;
+  font-weight: 600;
+}
+
+.price-rise {
+  color: #dc3545;
+  font-weight: 600;
+}
